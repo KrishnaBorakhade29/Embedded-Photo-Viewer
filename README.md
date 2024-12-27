@@ -1,8 +1,20 @@
-a mini digital photo album project which loads bitmap images (BMP) from an SD card inserted into the SD card reader module. 
-It reads the data in a contiguous manner and as such the card needs to be set up with the image files prior to reading them off. 
-The microcontroller displays the images on the SD card on a 128x128 graphic lcd. It also employs a slideshow function that triggers 
-the system to read the next image in a preset amount of time and a power button that puts the system in a low power state.
+# Mini Digital Photo Album Using Embedded System
+This project is a simple and portable Mini Digital Photo Album designed using embedded systems. It features a microcontroller to control an LCD screen, where digital images are displayed. Users can navigate through images using physical buttons like "Next" and "Previous."
+The project demonstrates the integration of hardware and software for managing and displaying image data, making it a great educational tool for learning embedded systems and LCD interfacing. It is a cost-effective solution suitable for hobbyists and students interested in embedded technology.
+# Tech Stack
+# Hardware:
 
-The project was developed using the LPC2148 microcontroller and PG-128x128-A lcd screen. 
-Simulation was performed using proteus 8.1 software and code was written and compiled in embedded c using keil uvision 4.0.
-for details check out the documentation (doc.pdf)
+Microcontroller (e.g., 8051, PIC, or any other used in the project)
+Graphic LCD (e.g., PG128x64)
+Push buttons (for navigation)
+Resistors, capacitors, and transistors for interfacing
+Power supply module
+# Software:
+
+Embedded C for microcontroller programming
+Keil uVision or MPLAB (or any IDE used for development)
+Proteus (for circuit simulation)
+# Protocols and Interfaces:
+
+GPIO (General Purpose Input/Output) for button controls and LCD interfacing
+Custom image encoding for storing images in memory
