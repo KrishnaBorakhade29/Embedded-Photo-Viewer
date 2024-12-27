@@ -16,9 +16,12 @@ Power supply module
 #### Software:
 
 Embedded C for microcontroller programming
+
 Keil uVision or MPLAB (or any IDE used for development)
+
 Proteus (for circuit simulation)
 #### Protocols and Interfaces:
 
 GPIO (General Purpose Input/Output) for button controls and LCD interfacing
+
 Custom image encoding for storing images in memory
